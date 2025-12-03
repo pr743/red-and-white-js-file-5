@@ -89,7 +89,6 @@ function Validation() {
       console.log(form);
 
 
-
       const usersData = {...form , age: Number(form.age)};
 
       localStorage.setItem("userFormData",JSON.stringify(usersData));
